@@ -1,4 +1,4 @@
-[![Platform][1]][2]  [![Build Status][3]][4]  [![Release][5]][6]  [![GitHub license][7]][8] 
+[![Platform][1]][2]  [![Build Status][3]][4]  [![Release][5]][6]  [![GitHub license][7]][8] 
 
 [1]:https://img.shields.io/badge/platform-Android-blue.svg  
 [2]:https://github.com/iMeiji/Toutiao
@@ -11,7 +11,7 @@
 
 
 
-包含技术：
+包含技术_HHD：
 
 - 基本遵循 Material Design 设计风格
 - 抓包获取今日头条API
