@@ -10,6 +10,32 @@
 [8]:https://github.com/iMeiji/Toutiao/blob/master/LICENSE
 
 
+
+包含技术：
+
+基本遵循 Material Design 设计风格
+抓包获取今日头条API
+使用 Google 官方 MVP 架构
+DrawerLayout + NavigationView + BottomNavigationView 搭配使用
+RxBus 代替 EventBus 进行组件之间通讯
+ViewPager 搭配 Fragment 懒加载
+SwipeRefreshLayout 搭配 RecyclerView 下拉刷新上拉加载
+自定义 BottomNavigationBehavior 实现上滑隐藏下滑显示
+RxJava + Retrofit2 + OkHttp3 做网络请求
+OkHttp3 对网络返回内容做缓存, 还有日志、超时重连、头部消息的配置
+V层基类的构建, 包括 BaseActivity 和 BaseFragment , 对外提供了相同的接口
+使用原生的夜间模式
+解决侧滑返回与 View 冲突问题
+内置 3 款 Logo, 随意切换
+使用 CoordinatorLayout 、 AppBarLayout 、 CollapsingToolbarLayout 、 BottomSheetDialog 等等新控件
+使用 7.0 新工具 DiffUtil , 不再无脑 notifyDataSetChanged
+使用 ItemTouchHelper 实现今日头条的频道排序、频道移动, 参考 ItemTouchHelperDemo
+使用 RxBinding 优雅实现搜索请求
+使用 RxLifecycle 绑定 RxJava 生命周期
+使用 Travis Cl 持续集成
+
+
+
 ## 头条
 <img src="./art/logo.png" width="128" alt="logo">
 
